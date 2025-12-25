@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <title>SiteSpark | شرارة المواقع - استضافة Hostinger بخصم خاص للسودان</title>
+    <meta name="description" content="احصل على استضافة Hostinger فائقة السرعة مع SiteSpark. خصم حصري لزوارنا في السودان! خطط Premium, Business, Cloud مع دومين مجاني ودعم فني. أطلق موقعك الآن!">
+    <meta name="keywords" content="استضافة مواقع, هوستنجر, Hostinger, SiteSpark, شرارة المواقع, استضافة السودان, انشاء موقع الكتروني, استضافة رخيصة, استضافة سريعة, خصم هوستنجر, كوبون هوستنجر, Premium hosting, Business hosting, Cloud hosting, شريف حماد, web hosting Sudan">
+    <meta name="author" content="شريف حماد">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JGRGGYBR8T"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-JGRGGYBR8T'); </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Hostinger Colors for accents */
+            --primary-color: #673ab7; 
+            --secondary-color: #ffc107; 
+            /* Sudan Flag Colors for Background */
+            --color-flag-green: #00823B;
+            --color-flag-yellow: #FCD116;
+            --color-flag-blue: #0033A0;
+            /* General Theme */
+            --dark-color: #1a202c; 
+            --light-color: #f8f7f4; 
+            --white-color: #FFFFFF;
+            --text-color: #2d3748; /* Dark text for light cards */
+            --section-bg: rgba(255, 255, 255, 0.9); /* White Glassmorphism */
+            --card-bg: #FFFFFF;
+            --border-color: #eee;
+            --header-bg: var(--white-color); /* Light Header */
+            --nav-link-color: #4a5568; /* Dark nav links */
+            --shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            --font-family-ar: 'Almarai', sans-serif;
+            --font-family-en: 'Roboto', sans-serif;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: linear-gradient(135deg, var(--color-flag-blue), var(--color-flag-green), var(--color-flag-yellow));
+            background-attachment: fixed;
+            color: var(--text-color); /* Default text color */
+            overflow-x: hidden;
+            padding-top: 80px;
+        }
+        
+        body.lang-ar { font-family: var(--font-family-ar); }
+        body.lang-en { font-family: var(--font-family-en); }
+        .lang { display: none; }
+        body.lang-ar .lang.ar { display: block; }
+        body.lang-en .lang.en { display: block; }
+        body.lang-ar .lang-en-inline { display: none; }
+        body.lang-en .lang-ar-inline { display: none; }
+        .lang-ar-inline, .lang-en-inline { display: inline; }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        h1, h2, h3 { font-weight: 800; color: var(--text-color);} /* Dark headings */
+        h2 { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; }
+        
+        main > section {
+            background: var(--section-bg);
+            backdrop-filter: blur(8px); /* Slightly increased blur */
+            margin: 0 1rem 3rem 1rem;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            padding: 5rem 1.5rem;
+            position: relative;
+            border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+        }
+
+        .btn {
+            display: inline-block; text-decoration: none; background: linear-gradient(90deg, var(--secondary-color), #ffdb58); 
+            color: var(--dark-color);
+            padding: 15px 40px; border-radius: 50px; font-weight: 700; font-size: 1.1rem; 
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            box-shadow: 0 5px 15px rgba(255, 193, 7, 0.3);
+            position: relative; overflow: hidden; border: none;
+        }
+        .btn span { position: relative; z-index: 1; transition: padding 0.3s ease; }
+        .btn::before { content: ''; position: absolute; top: 50%; left: 50%; width: 0; height: 0; background: rgba(255, 255, 255, 0.3); border-radius: 50%; transform: translate(-50%, -50%); transition: width 0.4s ease, height 0.4s ease; z-index: 0; }
+        .btn:hover::before { width: 250%; height: 250%; }
+        .btn:hover { transform: translateY(-5px) scale(1.03); box-shadow: 0 10px 25px rgba(255, 193, 7, 0.4); }
+        
+        .btn-buy { 
+             background: linear-gradient(90deg, var(--primary-color), #8e68e4); color: var(--white-color);
+             box-shadow: 0 5px 15px rgba(103, 58, 183, 0.3);
+        }
+         .btn-buy:hover { background: linear-gradient(90deg, var(--secondary-color), #ffdb58); color: var(--dark-color); box-shadow: 0 10px 20px rgba(255, 193, 7, 0.2); }
+
+        .header { 
+            position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; 
+            background: var(--header-bg); /* Light header */
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: top 0.4s ease-in-out;
+        }
+        .header.hidden { top: -100px; }
+
+        .navbar { display: flex; justify-content: space-between; align-items: center; height: 80px; }
+        .logo { display: block; height: 45px; text-decoration: none; }
+        .logo svg text { font-family: var(--font-family-en); font-weight: 700; fill: var(--primary-color); } /* Purple logo */
+         .logo svg path { fill: var(--secondary-color); } /* Gold icon */
+
+        .navbar-right { display: flex; align-items: center; gap: 2rem; }
+        .nav-menu { list-style: none; display: flex; align-items: center; gap: 2.5rem; }
+        .nav-menu a { text-decoration: none; color: var(--nav-link-color); font-weight: 700; } /* Dark links */
+        
+        .lang-switcher { position: relative; }
+        .lang-switcher-button { cursor: pointer; background: none; border: none; display: flex; align-items: center; gap: 0.5rem; color: var(--nav-link-color); font-weight: 700;}
+        .lang-switcher-button svg { width: 12px; height: 12px; fill: var(--nav-link-color); transition: transform 0.3s ease; }
+        .lang-switcher-button.open svg { transform: rotate(180deg); }
+        .lang-dropdown { display: none; position: absolute; top: 150%; right: 0; background: var(--white-color); border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); list-style: none; padding: 0.5rem; width: 150px; z-index: 1001; }
+        body.lang-en .lang-dropdown { right: auto; left: 0;}
+        .lang-dropdown.show { display: block; }
+        .lang-dropdown li { padding: 0.75rem 1rem; border-radius: 8px; cursor: pointer; font-weight: 700; color: var(--dark-color); }
+        .lang-dropdown li:hover { background: #eee; } /* Lighter hover for light dropdown */
+        
+        .hamburger { display: none; cursor: pointer; background: none; border: none; }
+        .hamburger svg { width: 30px; height: 30px; fill: var(--text-color); } /* Dark hamburger icon */
+        
+        /* Mobile Menu */
+        .nav-menu-mobile {
+            position: fixed; top: 0; right: -100%; width: 80%; max-width: 350px; height: 100vh;
+            background: var(--white-color); /* Light mobile menu */
+             flex-direction: column; justify-content: center;
+            align-items: center; gap: 2.5rem; transition: right 0.5s ease-in-out; 
+            z-index: 1002; box-shadow: -5px 0 25px rgba(0,0,0,0.1);
+            list-style: none; display: flex;
+        }
+        body.lang-en .nav-menu-mobile { right: auto; left: -100%; transition: left 0.5s ease-in-out; }
+        .nav-menu-mobile.active { right: 0; }
+        body.lang-en .nav-menu-mobile.active { left: 0; }
+        .nav-menu-mobile .close-btn { position: absolute; top: 2rem; right: 2rem; background: none; border: none; cursor: pointer; }
+        body.lang-en .nav-menu-mobile .close-btn { right: auto; left: 2rem; }
+        .nav-menu-mobile .close-btn svg { width: 24px; height: 24px; fill: var(--text-color); } /* Dark close icon */
+        .nav-menu-mobile a { font-size: 1.3rem; color: var(--nav-link-color); text-decoration: none; font-weight: 700; } /* Dark mobile links */
+
+        .hero { min-height: 100vh; display: flex; align-items: center; text-align: center; position: relative; overflow: hidden; margin: 0; border-radius: 0; padding-top:0; background: none; box-shadow: none; backdrop-filter: none; }
+        /* Hero slider styles... */
+        .hero-slider { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; }
+        .hero-slide { position: absolute; width: 100%; height: 100%; background-size: cover; background-position: center; opacity: 0; animation: kenburns-slideshow 36s linear infinite; }
+        @keyframes kenburns-slideshow { 0% { opacity: 0; transform: scale(1.05); } 8% { opacity: 1; } 25% { opacity: 1; transform: scale(1); } 33% { opacity: 0; } 100% { opacity: 0; } }
+        .hero::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); z-index: 1; }
+        .hero-content { position: relative; z-index: 2; color: var(--white-color); animation: fadeInSlideUp 1s ease-out 0.5s forwards; opacity: 0; transform: translateY(30px);}
+        @keyframes fadeInSlideUp { to { opacity: 1; transform: translateY(0); } }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 1rem; color: var(--white-color); text-shadow: 0 0 10px rgba(0,0,0, 0.5); }
+        .hero p { font-size: 1.3rem; margin-bottom: 2.5rem; color: #eee; max-width: 700px; margin-left: auto; margin-right: auto; }
+        
+        /* --- Plans Section --- */
+        .plans-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; align-items: stretch; perspective: 1000px;}
+        .plan-card {
+            background: var(--card-bg); padding: 2.5rem 2rem; border-radius: 15px;
+            text-align: center; box-shadow: var(--shadow); transition: all 0.4s ease; 
+            border: 1px solid var(--border-color); display: flex; flex-direction: column;
+            transform-style: preserve-3d; position: relative; overflow: hidden;
+        }
+        .plan-card:hover { 
+            transform: translateY(-15px) rotateX(3deg) scale(1.03); 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15); 
+            border: 1px solid var(--primary-color);
+        }
+        .plan-card h3 { font-size: 1.8rem; margin-bottom: 0.5rem; color: var(--primary-color); }
+        .plan-card .plan-price { font-size: 2.5rem; font-weight: 800; color: var(--secondary-color); margin-bottom: 1rem; }
+        .plan-card .plan-price span { font-size: 1rem; font-weight: 400; color: #777; }
+        .plan-card .plan-description { font-size: 1rem; color: #555; margin-bottom: 1.5rem; flex-grow: 1; }
+        .plan-card ul { list-style: none; margin-bottom: 2rem; text-align: right; flex-grow: 1; }
+        body.lang-en .plan-card ul { text-align: left; }
+        .plan-card ul li { margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem; color: var(--text-color);}
+        .plan-card ul li svg { width: 20px; height: 20px; fill: var(--primary-color); flex-shrink: 0; }
+        body.lang-en .plan-card ul li { flex-direction: row-reverse; }
+        .plan-card .btn-buy { margin-top: auto; }
+
+        /* --- Why Section --- */
+        .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; perspective: 1000px;}
+        .why-card { background: var(--light-color); padding: 2rem; border-radius: 10px; text-align: center; transition: all 0.4s ease; transform-style: preserve-3d; }
+         .why-card:hover { 
+            transform: translateY(-10px) rotateX(3deg) rotateY(-2deg); 
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1); 
+        }
+        .why-card .icon { font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem; }
+        .why-card h3 { font-size: 1.3rem; color: var(--dark-color); }
+        .why-card p { color: #555; }
+
+        /* --- Statistics Section --- */
+        .stats-section { padding: 4rem 0; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; text-align: center; }
+        .stat-item { background: var(--card-bg); padding: 2rem; border-radius: 15px; box-shadow: var(--shadow); transition: transform 0.3s ease; }
+        .stat-item:hover { transform: translateY(-5px); }
+        .stat-number { font-size: 3rem; font-weight: 800; color: var(--secondary-color); margin-bottom: 0.5rem; }
+        .stat-label { font-size: 1.1rem; color: #777; }
+
+        .footer { background-color: var(--dark-color); color: #a0aec0; padding: 4rem 0 2rem 0; margin: 0; border-radius: 0; border-top: 1px solid rgba(255, 255, 255, 0.1);}
+        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 3rem; }
+        .footer-col h4 { font-size: 1.2rem; margin-bottom: 1rem; color: var(--secondary-color); }
+        .footer-col ul { list-style: none; }
+        .footer-col a, .footer-col p { text-decoration: none; color: #a0aec0; transition: color 0.3s ease; }
+        .footer-col a:hover { color: var(--secondary-color); }
+        .footer-bottom { text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #4a5568; }
+        .footer-bottom p { color: #718096; font-size: 0.9rem;}
+        
+        /* --- WhatsApp Button Updated --- */
+        .whatsapp-container { position: fixed; bottom: 30px; right: 30px; z-index: 100; text-align: center; }
+        body.lang-en .whatsapp-container { right: auto; left: 30px; }
+        .whatsapp-label { 
+            background-color: rgba(0,0,0,0.7); color: white; padding: 5px 10px; border-radius: 5px; 
+            font-size: 0.8rem; margin-bottom: 5px; display: inline-block; white-space: nowrap; 
+        }
+        .whatsapp-float { 
+            background-color: #25D366; border-radius: 50%; width: 50px; height: 50px; /* Smaller */
+            display: flex; justify-content: center; align-items: center; 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease; margin: 0 auto;
+        }
+        .whatsapp-float:hover { transform: scale(1.1); }
+        .whatsapp-float svg { width: 28px; height: 28px; fill: #FFF; } /* Smaller SVG */
+        
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55); } 
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+
+        @media (max-width: 992px) {
+            .navbar-right { display: none; }
+            .hamburger { display: block; }
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.8rem; } h2 { font-size: 2.2rem; }
+            main > section { margin-left: 0.5rem; margin-right: 0.5rem;}
+        }
+    </style>
+</head>
+<body class="lang-ar">
+    
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                 <a href="#home" class="logo">
+                     <svg viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 20 L25 5 L40 20 L25 35 Z" /> 
+                        <text x="50" y="30" font-size="28" font-weight="700">SiteSpark</text>
+                    </svg>
+                </a>
+                
+                <div class="navbar-right">
+                    <ul class="nav-menu">
+                        <li><a href="#home"><span class="lang ar">الرئيسية</span><span class="lang en">Home</span></a></li>
+                        <li><a href="#why-hostinger"><span class="lang ar">لماذا هوستنجر؟</span><span class="lang en">Why Hostinger?</span></a></li>
+                        <li><a href="#plans"><span class="lang ar">الخطط</span><span class="lang en">Plans</span></a></li>
+                        <li><a href="#stats"><span class="lang ar">إحصائياتنا</span><span class="lang en">Stats</span></a></li>
+                    </ul>
+                    <div class="lang-switcher">
+                        <button class="lang-switcher-button" id="lang-switcher-btn">
+                            <span id="current-lang-text">AR</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg>
+                        </button>
+                        <ul class="lang-dropdown" id="lang-dropdown">
+                            <li class="lang-btn" data-lang="ar">العربية</li>
+                            <li class="lang-btn" data-lang="en">English</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <button class="hamburger" id="hamburger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <ul class="nav-menu-mobile" id="nav-menu-mobile">
+        <button class="close-btn" id="close-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m16.192 6.344-4.243 5.67-4.242-5.67-1.414 1.414L10.535 12l-5.671 5.656 1.414 1.414L12 13.414l5.656 5.656 1.414-1.414L13.414 12l5.656-5.656-1.414-1.414z"></path></svg>
+        </button>
+        <li><a href="#home" class="nav-link-item"><span class="lang ar">الرئيسية</span><span class="lang en">Home</span></a></li>
+        <li><a href="#why-hostinger" class="nav-link-item"><span class="lang ar">لماذا هوستنجر؟</span><span class="lang en">Why Hostinger?</span></a></li>
+        <li><a href="#plans" class="nav-link-item"><span class="lang ar">الخطط</span><span class="lang en">Plans</span></a></li>
+        <li><a href="#stats" class="nav-link-item"><span class="lang ar">إحصائياتنا</span><span class="lang en">Stats</span></a></li>
+    </ul>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-slider">
+                 <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1934&auto=format&fit=crop');" alt="خوادم سريعة وموثوقة لاستضافة المواقع"></div>
+                 <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop');" alt="شاشة كمبيوتر تعرض تحليلات موقع الكتروني"></div>
+                 <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop');" alt="فريق عمل يتعاون في اطلاق موقع الكتروني"></div>
+                 <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1600695268275-1a64459a9a4b?q=80&w=1974&auto=format&fit=crop');" alt="يد تكتب كود برمجي على شاشة لابتوب"></div>
+                 <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop');" alt="شخص يعمل على تصميم موقع الكتروني"></div>
+                 <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=2072&auto=format&fit=crop');" alt="شخص يتصفح موقع الكتروني على لابتوب وجوال"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1>
+                        <span class="lang ar">أشعل شرارة نجاحك الرقمي مع Hostinger</span>
+                        <span class="lang en">Ignite Your Digital Success with Hostinger</span>
+                    </h1>
+                    <p>
+                        <span class="lang ar">استضافة فائقة السرعة، أمان لا يُضاهى، وأسعار تبدأ اليوم! SiteSpark يقدم لك أفضل عروض Hostinger لبناء موقع أحلامك في السودان والعالم.</span>
+                        <span class="lang en">Ultra-fast hosting, unparalleled security, and prices starting today! SiteSpark brings you the best Hostinger deals to build your dream website in Sudan and globally.</span>
+                    </p>
+                    <a href="#plans" class="btn">
+                        <span><span class="lang ar">اكتشف الخطط الآن</span><span class="lang en">Discover Plans Now</span></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-section reveal" id="why-hostinger">
+             <div class="container">
+                <h2>
+                    <span class="lang ar">لماذا Hostinger هي شرارة الانطلاق؟</span>
+                    <span class="lang en">Why is Hostinger the Spark?</span>
+                </h2>
+                <div class="why-grid">
+                    <div class="why-card reveal">
+                        <div class="icon">🚀</div>
+                        <h3><span class="lang ar">سرعة تشعل الحماس</span><span class="lang en">Igniting Speed</span></h3>
+                        <p><span class="lang ar">تكنولوجيا LiteSpeed وخوادم عالمية تضمن أداءً صاروخياً لموقعك.</span><span class="lang en">LiteSpeed tech and global servers ensure rocket performance for your site.</span></p>
+                    </div>
+                    <div class="why-card reveal">
+                        <div class="icon">💰</div>
+                        <h3><span class="lang ar">أسعار تشجع البداية</span><span class="lang en">Encouraging Prices</span></h3>
+                        <p><span class="lang ar">أفضل قيمة مقابل المال، لتطلق مشروعك دون كسر الميزانية.</span><span class="lang en">The best value for money, launch your project without breaking the bank.</span></p>
+                    </div>
+                    <div class="why-card reveal">
+                        <div class="icon">💡</div>
+                        <h3><span class="lang ar">سهولة تضيء الطريق</span><span class="lang en">Illuminating Simplicity</span></h3>
+                        <p><span class="lang ar">لوحة تحكم hPanel البديهية تجعل إدارة موقعك متعة بسيطة.</span><span class="lang en">The intuitive hPanel makes managing your website a simple pleasure.</span></p>
+                    </div>
+                     <div class="why-card reveal">
+                        <div class="icon">🛡️</div>
+                        <h3><span class="lang ar">أمان يحمي طموحك</span><span class="lang en">Security That Protects</span></h3>
+                        <p><span class="lang ar">شهادة SSL مجانية وحماية متقدمة ليبقى موقعك آمناً دائماً.</span><span class="lang en">Free SSL and advanced protection keep your site secure always.</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="plans-section reveal" id="plans">
+             <div class="container">
+                <h2>
+                    <span class="lang ar">اختر باقة الوقود المناسبة لنجاحك</span>
+                    <span class="lang en">Choose the Right Fuel Package for Your Success</span>
+                </h2>
+                <div class="plans-grid">
+                    <div class="plan-card reveal">
+                        <h3><span class="lang ar">Premium</span><span class="lang en">Premium</span></h3>
+                        <p class="plan-description">
+                            <span class="lang ar">الانطلاقة المثالية للمواقع الشخصية والمدونات الطموحة.</span>
+                            <span class="lang en">The perfect start for personal sites and ambitious blogs.</span>
+                        </p>
+                        <ul>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path></svg> <span><span class="lang ar">100 موقع</span><span class="lang en">100 Websites</span></span></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path></svg> <span><span class="lang ar">100 GB تخزين SSD</span><span class="lang en">100 GB SSD Storage</span></span></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path></svg> <span><span class="lang ar">دومين مجاني</span><span class="lang en">Free Domain</span></span></li>
+                        </ul>
+                        <a href="https://www.hostinger.com/cart?product=hosting%3Ahostinger_premium&period=12&referral_type=cart_link&REFERRALCODE=ZNNSHARIFI42&referral_id=0199f35f-831d-71a4-8269-2da48f7ce4a4" target="_blank" class="btn btn-buy">
+                           <span><span class="lang ar">أشعل موقعك الآن</span><span class="lang en">Spark Your Site Now</span></span>
+                        </a>
+                    </div>
+
+                    <div class="plan-card reveal">
+                        <h3><span class="lang ar">Business</span><span class="lang en">Business</span></h3>
+                         <p class="plan-description">
+                            <span class="lang ar">القوة الإضافية للمتاجر الإلكترونية ومواقع الشركات النامية.</span>
+                            <span class="lang en">Extra power for e-commerce stores and growing business sites.</span>
+                        </p>
+                         <ul>
+                             <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path></svg> <span><span class="lang ar">100 موقع</span><span class="lang en">100 Websites</span></span></li>
+                             <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path></svg> <span><span class="lang ar">200 GB تخزين NVMe (أسرع)</span><span class="lang en">200 GB NVMe Storage (Faster)</span></span></li>
+                             <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path></svg> <span><span class="lang ar">نسخ احتياطي يومي</span><span class="lang en">Daily Backups</span></span></li>
+                        </ul>
+                        <a href="https://www.hostinger.com/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=ZNNSHARIFI42&referral_id=0199f35f-ecbd-7311-9935-4297f628d85e" target="_blank" class="btn btn-buy">
+                            <span><span class="lang ar">طور أعمالك الآن</span><span class="lang en">Boost Your Business Now</span></span>
+                        </a>
+                    </div>
+
+                    <div class="plan-card reveal">
+                        <h3><span class="lang ar">Cloud Startup</span><span class="lang en">Cloud Startup</span></h3>
+                         <p class="plan-description">
+                            <span class="lang ar">الأداء الفائق والموارد المخصصة للمواقع الكبيرة والتطبيقات الهامة.</span>
+                            <span class="lang en">Ultimate performance and dedicated resources for large sites & critical apps.</span>
+                        </p>
+                         <ul>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path></svg> <span><span class="lang ar">300 موقع</span><span class="lang en">300 Websites</span></span></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path></svg> <span><span class="lang ar">200 GB تخزين NVMe</span><span class="lang en">200 GB NVMe Storage</span></span></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path></svg> <span><span class="lang ar">IP مخصص مجاني</span><span class="lang en">Free Dedicated IP</span></span></li>
+                        </ul>
+                        <a href="https://www.hostinger.com/cart?product=hosting%3Acloud_economy&period=12&referral_type=cart_link&REFERRALCODE=ZNNSHARIFI42&referral_id=0199f360-5661-7149-ab71-6d2ce326a65d" target="_blank" class="btn btn-buy">
+                            <span><span class="lang ar">انطلق للسحابة الآن</span><span class="lang en">Go Cloud Now</span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section reveal" id="stats">
+            <div class="container">
+                <h2>
+                    <span class="lang ar">انضم لمجتمع الناجحين المتنامي</span>
+                    <span class="lang en">Join a Growing Community of Success</span>
+                </h2>
+                <div class="stats-grid">
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-goal="1500">0</div>
+                        <div class="stat-label"><span class="lang ar">مسجل عبر الرابط</span><span class="lang en">Registered via Link</span></div>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-goal="800">0</div>
+                        <div class="stat-label"><span class="lang ar">موقع تم إطلاقه</span><span class="lang en">Websites Launched</span></div>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-goal="98">0</div>
+                        <div class="stat-label"><span class="lang ar">% نسبة الرضا</span><span class="lang en">% Satisfaction Rate</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col reveal">
+                    <h4><span class="lang ar">شرارة المواقع للاستضافة</span><span class="lang en">SiteSpark Hosting</span></h4>
+                    <p><span class="lang ar">نساعدك على إطلاق شرارة نجاح موقعك مع Hostinger.</span><span class="lang en">Helping you spark your website's success with Hostinger.</span></p>
+                </div>
+                <div class="footer-col reveal">
+                    <h4><span class="lang ar">روابط سريعة</span><span class="lang en">Quick Links</span></h4>
+                    <ul>
+                        <li><a href="#home"><span class="lang ar">الرئيسية</span><span class="lang en">Home</span></a></li>
+                        <li><a href="#why-hostinger"><span class="lang ar">لماذا هوستنجر؟</span><span class="lang en">Why Hostinger?</span></a></li>
+                        <li><a href="#plans"><span class="lang ar">الخطط</span><span class="lang en">Plans</span></a></li>
+                        <li><a href="#stats"><span class="lang ar">إحصائياتنا</span><span class="lang en">Stats</span></a></li>
+                    </ul>
+                </div>
+                 <div class="footer-col reveal">
+                     <h4><span class="lang ar">تواصل واستفسر</span><span class="lang en">Contact & Inquire</span></h4>
+                     <p><span class="lang ar">لديك سؤال؟ تواصل معي مباشرة عبر واتساب:</span><span class="lang en">Have a question? Contact me directly via WhatsApp:</span></p>
+                     <p style="margin-top: 0.5rem;"><a href="https://wa.me/13238181488" target="_blank" style="color: var(--secondary-color); font-weight: 700;">+13238181488</a></p>
+                      <p style="margin-top: 1rem; font-size: 0.9rem;"><span class="lang ar">إخلاء المسؤولية: هذه الصفحة تحتوي على روابط إحالة.</span><span class="lang en">Disclaimer: This page contains affiliate links.</span></p>
+                 </div>
+            </div>
+             <div class="footer-bottom">
+                 <p>&copy; 2025 <span class="lang-ar-inline">شريف حماد</span><span class="lang-en-inline">Sharif Hamad</span>. <span class="lang-ar-inline">جميع الحقوق محفوظة</span><span class="lang-en-inline">All rights reserved</span>.</p>
+             </div>
+        </div>
+    </footer>
+    
+    <div class="whatsapp-container">
+        <div class="whatsapp-label">
+            <span class="lang ar">تواصل معنا واتساب</span>
+            <span class="lang en">Contact us on WhatsApp</span>
+        </div>
+        <a href="https://wa.me/13238181488" target="_blank" class="whatsapp-float">
+            <svg fill="#ffffff" viewBox="0 0 32 32"><path d=" M19.11 17.205c-.372 0-1.088 1.39-1.088 1.39s-.232.626-.087.803c.145.177.325.347.325.347s.35.208.622.02c.272-.188 1.13-1.043 1.13-1.043s.424-.378.33-.795c-.095-.418-.945-.495-.945-.495zm-2.638 2.51c-.372 0-1.088 1.39-1.088 1.39s-.232.626-.087.803c.145.177.325.347.325.347s.35.208.622.02c.272-.188 1.13-1.043 1.13-1.043s.424-.378.33-.795c-.095-.418-.945-.495-.945-.495zm-2.638 2.51c-.372 0-1.088 1.39-1.088 1.39s-.232.626-.087.803c.145.177.325.347.325.347s.35.208.622.02c.272-.188 1.13-1.043 1.13-1.043s.424-.378.33-.795c-.095-.418-.945-.495-.945-.495zm-2.638 2.51c-.372 0-1.088 1.39-1.088 1.39s-.232.626-.087.803c.145.177.325.347.325.347s.35.208.622.02c.272-.188 1.13-1.043 1.13-1.043s.424-.378.33-.795c-.095-.418-.945-.495-.945-.495zm-2.638 2.51c-.372 0-1.088 1.39-1.088 1.39s-.232.626-.087.803c.145.177.325.347.325.347s.35.208.622.02c.272-.188 1.13-1.043 1.13-1.043s.424-.378.33-.795c-.095-.418-.945-.495-.945-.495z M16.45.004C7.36.004 0 7.363 0 16.452c0 9.09 7.36 16.45 16.45 16.45 9.09 0 16.45-7.36 16.45-16.45 0-9.09-7.36-16.448-16.45-16.448zm0 29.31c-7.095 0-12.86-5.764-12.86-12.86S9.354 3.592 16.45 3.592c7.095 0 12.86 5.764 12.86 12.86 0 7.094-5.765 12.858-12.86 12.858zm6.54-9.97c-.372 0-1.088 1.39-1.088 1.39s-.232.626-.087.803c.145.177.325.347.325.347s.35.208.622.02c.272-.188 1.13-1.043 1.13-1.043s.424-.378.33-.795c-.095-.418-.945-.495-.945-.495z"></path></svg>
+        </a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smart Header Logic
+            let lastScrollTop = 0;
+            const header = document.getElementById('header');
+            const langDropdown = document.getElementById('lang-dropdown');
+            if (header) {
+                window.addEventListener('scroll', function() {
+                    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                    if (!langDropdown || !langDropdown.classList.contains('show')) { 
+                        if (scrollTop > lastScrollTop && scrollTop > 80) { header.classList.add('hidden'); } 
+                        else { header.classList.remove('hidden'); }
+                    }
+                    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+                });
+            }
+
+            // Language Switcher Logic
+            const langSwitcherBtn = document.getElementById('lang-switcher-btn');
+            const currentLangText = document.getElementById('current-lang-text');
+            const formInputs = document.querySelectorAll('[placeholder-ar]');
+            function setLanguage(lang) {
+                document.body.className = document.body.className.replace(/lang-(ar|en)/g, '') + ' lang-' + lang; 
+                document.documentElement.lang = lang;
+                document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+                // No need to update button text if it's just an icon now
+                formInputs.forEach(input => {
+                    const placeholderText = input.getAttribute('placeholder-' + lang);
+                    if(placeholderText) input.setAttribute('placeholder', placeholderText);
+                });
+                localStorage.setItem('userLanguage', lang);
+                if(langDropdown) langDropdown.classList.remove('show');
+                 if(langSwitcherBtn) langSwitcherBtn.classList.remove('open');
+            }
+            if (langSwitcherBtn && langDropdown) {
+                langSwitcherBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    langDropdown.classList.toggle('show');
+                    langSwitcherBtn.classList.toggle('open');
+                });
+                langDropdown.addEventListener('click', (e) => {
+                     if (e.target.dataset.lang) { setLanguage(e.target.dataset.lang); }
+                });
+            }
+            document.addEventListener('click', (e) => {
+                if (langDropdown && langDropdown.classList.contains('show') && langSwitcherBtn && !langSwitcherBtn.contains(e.target) && !langSwitcherBtn.parentElement.contains(e.target)) {
+                    langDropdown.classList.remove('show');
+                    langSwitcherBtn.classList.remove('open');
+                }
+            });
+            const savedLang = localStorage.getItem('userLanguage') || 'ar';
+            setLanguage(savedLang);
+
+            // Hamburger Menu Logic
+            const hamburger = document.getElementById('hamburger');
+            const mobileMenu = document.getElementById('nav-menu-mobile');
+            const closeBtn = document.getElementById('close-btn');
+
+            if (hamburger && mobileMenu && closeBtn) {
+                const openMenu = () => mobileMenu.classList.add('active');
+                const closeMenu = () => mobileMenu.classList.remove('active');
+                hamburger.addEventListener('click', openMenu);
+                closeBtn.addEventListener('click', closeMenu);
+                mobileMenu.querySelectorAll('a').forEach(link => {
+                    link.addEventListener('click', closeMenu);
+                });
+            }
+
+            // Scroll Reveal & Counter Logic
+             const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) { 
+                        entry.target.classList.add('visible'); 
+                        
+                        const statNumber = entry.target.querySelector('.stat-number');
+                        if (statNumber && !statNumber.classList.contains('counted')) {
+                             statNumber.classList.add('counted');
+                             animateCounter(statNumber);
+                        }
+                        
+                        // Stop observing after revealed if you want
+                        // revealObserver.unobserve(entry.target); 
+                    }
+                });
+            }, { threshold: 0.1 }); // Trigger when 10% is visible
+
+            document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+            // Counter Animation Function
+            function animateCounter(element) {
+                const goal = +element.dataset.goal;
+                if(isNaN(goal)) return; // Exit if data-goal is not a number
+                
+                let current = 0;
+                const increment = Math.ceil(goal / 100); // Make it count faster for larger numbers
+                const duration = 2000; // Total duration 2 seconds
+                const stepTime = Math.max(10, duration / (goal / increment)); // Calculate interval, min 10ms
+
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= goal) {
+                         current = goal; // Ensure it ends exactly at the goal
+                         clearInterval(timer);
+                    }
+                    element.textContent = current.toLocaleString(document.documentElement.lang === 'ar' ? 'ar-EG' : 'en-US'); // Format number
+                }, stepTime);
+            }
+
+        });
+    </script>
+</body>
+</html>
